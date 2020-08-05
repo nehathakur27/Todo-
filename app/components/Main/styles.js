@@ -1,0 +1,51 @@
+import {StyleSheet} from 'react-native'
+
+export default StyleSheet.create({
+    container:{
+      flex:1,
+    },
+    header:{
+    backgroundColor:'#01579b',
+    alignItems:'center',
+    },
+    headerText:{
+      color:'white',
+      fontSize:18,
+      padding:26,
+    },
+    scrollContainer:{
+      flex:1,
+      marginBottom:100,
+    },
+    footer:{
+      position:'absolute',
+      bottom:0,
+      left:0,
+      right:0,
+      zIndex:10,
+    },
+    input:{
+      alignSelf:'stretch',
+      color:'#fff',
+      padding:20,
+      backgroundColor:'#252525',
+      borderTopWidth:2,
+      borderTopColor:'#ededed',
+    },
+    addButton:{
+      position:'absolute',
+      zIndex:11,
+      right:20,
+      bottom:90,
+      width:70,
+      height:70,
+      backgroundColor:'#01579b',
+      borderRadius:50,
+      alignItems:'center',
+      justifyContent:'center',
+    },
+    addButtonText:{
+      color:'#fff',
+      fontSize:24,
+    },
+});
